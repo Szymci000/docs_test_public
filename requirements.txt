@@ -8,13 +8,4 @@ mkdocs-material>=9.5.0
 pymdown-extensions>=10.0
 
 # Plugins
-mkdocs-plugin-tags>=0.1.0
-mkdocs-ezlinks-plugin>=0.1.17
-
-# Mermaid support (if needed for diagrams)
-mkdocs-mermaid2-plugin>=1.1.0
-
-# Note: 'meta' plugin may be built into mkdocs-material or refer to mkdocs-macros-plugin
-# If you need macros functionality, uncomment the line below:
-# mkdocs-macros-plugin>=1.0.0
-
+mkdocs-obsidian-links>=1.0.0
