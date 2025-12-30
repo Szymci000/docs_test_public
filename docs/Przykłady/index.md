@@ -7,7 +7,7 @@ inline kodzik też
 Użyj `git commit -m "message"` aby utworzyć commit
 
 blok kodu też działa 
-``` html {.html .copy} title="kodzik.html" linenums="1"
+``` html title="kodzik.html" linenums="1"
 <div style="display: none;">Najlepszy display</div>
 <div style="display: block;">Problematyczny display</div>
 ```
