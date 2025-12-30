@@ -202,6 +202,10 @@ cython_debug/
 .cursorindexingignore
 .cursor/
 
+# Obsidian
+#  Obsidian vault configuration and settings
+.obsidian/
+
 # Marimo
 marimo/_static/
 marimo/_lsp/

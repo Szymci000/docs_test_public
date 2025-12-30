@@ -12,5 +12,12 @@ blok kodu też działa
 <div style="display: block;">Problematyczny display</div>
 ```
 
+```mermaid
+graph TD
+    A[zmiana w kodzie] -->  B[Code review]
+    B --> C{decyzja}
+    C -->|dobrze| D[merge na prod]
+    C -->|nie dobrze| A
+```
 
 [^1]: Markdown to prosty, lekki język znaczników, który pozwala na formatowanie tekstu za pomocą intuicyjnych symboli (np. # dla nagłówków, * dla list)
