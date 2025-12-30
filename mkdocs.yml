@@ -99,6 +99,6 @@ plugins:
   - tags
   - meta
   - search
-  - ezlinks:
-      wikilinks: true
-      reference_links: true
+  # - ezlinks:
+  #     wikilinks: true
+  #     reference_links: true
