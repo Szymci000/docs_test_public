@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../Przyk%C5%82ady/Inna%20podstrona/">
+        <link rel="prev" href="../Getting%20started/">
       
       
-        <link rel="next" href="abbreviations/">
+        <link rel="next" href="../Przyk%C5%82ady/">
       
       
         
@@ -23,7 +23,7 @@
     
     
       
-        <title>Funkcje MkDocs - My Docs</title>
+        <title>Workflow Git - My Docs</title>
       
     
     
@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#funkcje-mkdocs" class="md-skip">
+        <a href="#1-kiedy-uzywac-git-init" class="md-skip">
           Skip to content
         </a>
       
@@ -113,7 +113,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Funkcje MkDocs
+              Workflow Git
             
           </span>
         </div>
@@ -265,9 +265,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../Workflow%20Git/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
   
@@ -306,13 +308,11 @@
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="./" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../mkdocs/" class="md-tabs__link">
           
   
   
@@ -422,10 +422,35 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../Workflow%20Git/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Workflow Git
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -441,6 +466,162 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-kiedy-uzywac-git-init" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Kiedy używać git init
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-codzienny-workflow-z-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Codzienny workflow (z review)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Codzienny workflow (z review)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-zaciagniecie-najnowszych-zmian" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1. Zaciągnięcie najnowszych zmian
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-utworzenie-nowej-gaezi-dla-zmian" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2. Utworzenie nowej gałęzi dla zmian
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-podglad-lokalny-mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3. Podgląd lokalny MkDocs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-commit" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4. Commit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-push-gaezi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5. Push gałęzi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-pull-request-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6. Pull Request + review
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-poprawki-po-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Poprawki po review
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-konflikty-rozwiazanie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Konflikty – rozwiązanie
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-komendy-skrot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Komendy skrót
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-przepyw-koncowy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Przepływ końcowy
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -553,8 +734,6 @@
       
   
   
-    
-  
   
   
     
@@ -608,23 +787,20 @@
     
     
       
-        
-        
-      
       
         
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="./" class="md-nav__link md-nav__link--active">
+            <a href="../mkdocs/" class="md-nav__link ">
               
   
   
@@ -642,13 +818,13 @@
             </a>
             
               
-              <label class="md-nav__link md-nav__link--active" for="__nav_5" id="__nav_5_label" tabindex="">
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -668,7 +844,7 @@
   
   
     <li class="md-nav__item">
-      <a href="abbreviations/" class="md-nav__link">
+      <a href="../mkdocs/abbreviations/" class="md-nav__link">
         
   
   
@@ -696,7 +872,7 @@
   
   
     <li class="md-nav__item">
-      <a href="admonitions/" class="md-nav__link">
+      <a href="../mkdocs/admonitions/" class="md-nav__link">
         
   
   
@@ -724,7 +900,7 @@
   
   
     <li class="md-nav__item">
-      <a href="code-blocks/" class="md-nav__link">
+      <a href="../mkdocs/code-blocks/" class="md-nav__link">
         
   
   
@@ -752,7 +928,7 @@
   
   
     <li class="md-nav__item">
-      <a href="coparison/" class="md-nav__link">
+      <a href="../mkdocs/coparison/" class="md-nav__link">
         
   
   
@@ -780,7 +956,7 @@
   
   
     <li class="md-nav__item">
-      <a href="definition-lists/" class="md-nav__link">
+      <a href="../mkdocs/definition-lists/" class="md-nav__link">
         
   
   
@@ -808,7 +984,7 @@
   
   
     <li class="md-nav__item">
-      <a href="details/" class="md-nav__link">
+      <a href="../mkdocs/details/" class="md-nav__link">
         
   
   
@@ -836,7 +1012,7 @@
   
   
     <li class="md-nav__item">
-      <a href="emoji-reference/" class="md-nav__link">
+      <a href="../mkdocs/emoji-reference/" class="md-nav__link">
         
   
   
@@ -864,7 +1040,7 @@
   
   
     <li class="md-nav__item">
-      <a href="emoji/" class="md-nav__link">
+      <a href="../mkdocs/emoji/" class="md-nav__link">
         
   
   
@@ -892,7 +1068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="footnotes/" class="md-nav__link">
+      <a href="../mkdocs/footnotes/" class="md-nav__link">
         
   
   
@@ -920,7 +1096,7 @@
   
   
     <li class="md-nav__item">
-      <a href="icons-reference/" class="md-nav__link">
+      <a href="../mkdocs/icons-reference/" class="md-nav__link">
         
   
   
@@ -948,7 +1124,7 @@
   
   
     <li class="md-nav__item">
-      <a href="inline-code/" class="md-nav__link">
+      <a href="../mkdocs/inline-code/" class="md-nav__link">
         
   
   
@@ -976,7 +1152,7 @@
   
   
     <li class="md-nav__item">
-      <a href="keyboard-keys/" class="md-nav__link">
+      <a href="../mkdocs/keyboard-keys/" class="md-nav__link">
         
   
   
@@ -1004,7 +1180,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mermaid-diagrams/" class="md-nav__link">
+      <a href="../mkdocs/mermaid-diagrams/" class="md-nav__link">
         
   
   
@@ -1032,7 +1208,7 @@
   
   
     <li class="md-nav__item">
-      <a href="mkdocs-vs-wordpress/" class="md-nav__link">
+      <a href="../mkdocs/mkdocs-vs-wordpress/" class="md-nav__link">
         
   
   
@@ -1060,7 +1236,7 @@
   
   
     <li class="md-nav__item">
-      <a href="smart-symbols/" class="md-nav__link">
+      <a href="../mkdocs/smart-symbols/" class="md-nav__link">
         
   
   
@@ -1088,7 +1264,7 @@
   
   
     <li class="md-nav__item">
-      <a href="table-of-contents/" class="md-nav__link">
+      <a href="../mkdocs/table-of-contents/" class="md-nav__link">
         
   
   
@@ -1116,7 +1292,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tabs/" class="md-nav__link">
+      <a href="../mkdocs/tabs/" class="md-nav__link">
         
   
   
@@ -1144,7 +1320,7 @@
   
   
     <li class="md-nav__item">
-      <a href="tags/" class="md-nav__link">
+      <a href="../mkdocs/tags/" class="md-nav__link">
         
   
   
@@ -1172,7 +1348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="task-lists/" class="md-nav__link">
+      <a href="../mkdocs/task-lists/" class="md-nav__link">
         
   
   
@@ -1200,7 +1376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="text-highlighting/" class="md-nav__link">
+      <a href="../mkdocs/text-highlighting/" class="md-nav__link">
         
   
   
@@ -1245,8 +1421,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -1255,22 +1429,33 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#kategorie-funkcji" class="md-nav__link">
+  <a href="#1-kiedy-uzywac-git-init" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Kategorie funkcji
+        1. Kiedy używać git init
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Kategorie funkcji">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-codzienny-workflow-z-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Codzienny workflow (z review)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Codzienny workflow (z review)">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#funkcje-tresci-podstawowe" class="md-nav__link">
+  <a href="#21-zaciagniecie-najnowszych-zmian" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Funkcje treści podstawowe
+        2.1. Zaciągnięcie najnowszych zmian
       
     </span>
   </a>
@@ -1278,10 +1463,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#formatowanie-tekstu" class="md-nav__link">
+  <a href="#22-utworzenie-nowej-gaezi-dla-zmian" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Formatowanie tekstu
+        2.2. Utworzenie nowej gałęzi dla zmian
       
     </span>
   </a>
@@ -1289,10 +1474,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#funkcje-zaawansowane" class="md-nav__link">
+  <a href="#23-podglad-lokalny-mkdocs" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Funkcje zaawansowane
+        2.3. Podgląd lokalny MkDocs
       
     </span>
   </a>
@@ -1300,10 +1485,32 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#organizacja-i-nawigacja" class="md-nav__link">
+  <a href="#24-commit" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Organizacja i nawigacja
+        2.4. Commit
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-push-gaezi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5. Push gałęzi
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#26-pull-request-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.6. Pull Request + review
       
     </span>
   </a>
@@ -1316,10 +1523,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#jak-korzystac-z-tej-dokumentacji" class="md-nav__link">
+  <a href="#3-poprawki-po-review" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Jak korzystać z tej dokumentacji
+        3. Poprawki po review
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-konflikty-rozwiazanie" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Konflikty – rozwiązanie
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-komendy-skrot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Komendy skrót
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-przepyw-koncowy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Przepływ końcowy
       
     </span>
   </a>
@@ -1343,45 +1583,120 @@
 
 
 
-<h1 id="funkcje-mkdocs">Funkcje MkDocs<a class="headerlink" href="#funkcje-mkdocs" title="Permanent link">&para;</a></h1>
-<p>Witaj w dokumentacji funkcji dostępnych w naszym systemie dokumentacji MkDocs. Ta sekcja zawiera szczegółowe instrukcje dotyczące korzystania z wszystkich dostępnych funkcji formatowania i prezentacji treści.</p>
-<h2 id="kategorie-funkcji">Kategorie funkcji<a class="headerlink" href="#kategorie-funkcji" title="Permanent link">&para;</a></h2>
-<h3 id="funkcje-tresci-podstawowe">Funkcje treści podstawowe<a class="headerlink" href="#funkcje-tresci-podstawowe" title="Permanent link">&para;</a></h3>
+  <h1>Workflow Git</h1>
+
+<p>Ten dokument opisuje, jak pracować z Git i GitHub w projekcie dokumentacji,
+gdzie:
+- źródła znajdują się na gałęzi <code>main</code>,
+- publikacja działa przez CI/CD na gałąź <code>gh-pages</code>,
+- zmiany przechodzą przez proces <strong>review</strong> przed publikacją.</p>
+<h2 id="1-kiedy-uzywac-git-init">1. Kiedy używać <code>git init</code><a class="headerlink" href="#1-kiedy-uzywac-git-init" title="Permanent link">&para;</a></h2>
+<p>Użyj <code>git init</code> TYLKO wtedy, gdy <strong>tworzysz nowe repozytorium od zera lokalnie</strong>.</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>mkdir dokumentacja
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>cd dokumentacja
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>git init
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>git add .
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>git commit -m &quot;Initial commit&quot;
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>git branch -M main
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>git remote add origin https://github.com/uzytkownik/nazwa-repo.git
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>git push -u origin main
+</span></code></pre></div>
+<p>Jeśli repozytorium już istnieje na GitHubie, zaczynasz od:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>git clone https://github.com/uzytkownik/nazwa-repo.git
+</span></code></pre></div></p>
+<h2 id="2-codzienny-workflow-z-review">2. Codzienny workflow (z review)<a class="headerlink" href="#2-codzienny-workflow-z-review" title="Permanent link">&para;</a></h2>
+<h3 id="21-zaciagniecie-najnowszych-zmian">2.1. Zaciągnięcie najnowszych zmian<a class="headerlink" href="#21-zaciagniecie-najnowszych-zmian" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>git pull
+</span></code></pre></div>
+<h3 id="22-utworzenie-nowej-gaezi-dla-zmian">2.2. Utworzenie nowej gałęzi dla zmian<a class="headerlink" href="#22-utworzenie-nowej-gaezi-dla-zmian" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>git checkout -b feature/nazwa-zmiany
+</span></code></pre></div>
+<h3 id="23-podglad-lokalny-mkdocs">2.3. Podgląd lokalny MkDocs<a class="headerlink" href="#23-podglad-lokalny-mkdocs" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>mkdocs serve
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a># http://127.0.0.1:8000
+</span></code></pre></div>
+<h3 id="24-commit">2.4. Commit<a class="headerlink" href="#24-commit" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>git add .
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>git commit -m &quot;Opis zmian&quot;
+</span></code></pre></div>
+<h3 id="25-push-gaezi">2.5. Push gałęzi<a class="headerlink" href="#25-push-gaezi" title="Permanent link">&para;</a></h3>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>git push -u origin feature/nazwa-zmiany
+</span></code></pre></div>
+<h3 id="26-pull-request-review">2.6. Pull Request + review<a class="headerlink" href="#26-pull-request-review" title="Permanent link">&para;</a></h3>
 <ul>
-<li><a href="admonitions/">Admonitions</a> - Notatki i ostrzeżenia</li>
-<li><a href="code-blocks/">Bloki kodu</a> - Podświetlanie składni i numeracja linii</li>
-<li><a href="tabs/">Zakładki</a> - Sekcje z zakładkami</li>
-<li><a href="task-lists/">Listy zadań</a> - Listy z checkboxami</li>
-<li><a href="footnotes/">Przypisy</a> - Przypisy z tooltipami</li>
-<li><a href="details/">Sekcje zwijane</a> - Rozwijane/zwijane sekcje</li>
+<li>Pull Request z <code>feature/...</code> → <code>main</code></li>
+<li>review</li>
+<li>merge po akceptacji</li>
+<li>CI/CD publikuje na GitHub Pages</li>
 </ul>
-<h3 id="formatowanie-tekstu">Formatowanie tekstu<a class="headerlink" href="#formatowanie-tekstu" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="text-highlighting/">Podświetlanie tekstu</a> - Oznaczanie tekstu</li>
-<li><a href="emoji/">Emoji</a> - Wsparcie dla emoji</li>
-<li><a href="emoji-reference/">Referencja emoji</a> - Kompletna tabela emoji</li>
-<li><a href="icons-reference/">Referencja ikon</a> - Kompletna tabela ikon Material Design i symboli</li>
-<li><a href="keyboard-keys/">Klawisze klawiatury</a> - Notacja klawiszy</li>
-<li><a href="abbreviations/">Skróty</a> - Definicje skrótów</li>
-<li><a href="definition-lists/">Listy definicji</a> - Listy definicji</li>
-<li><a href="inline-code/">Kod inline</a> - Podświetlanie kodu inline</li>
-</ul>
-<h3 id="funkcje-zaawansowane">Funkcje zaawansowane<a class="headerlink" href="#funkcje-zaawansowane" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="mermaid-diagrams/">Diagramy Mermaid</a> - Wsparcie dla diagramów Mermaid</li>
-<li><a href="smart-symbols/">Inteligentne symbole</a> - Symbole (strzałki, matematyczne, etc.)</li>
-</ul>
-<h3 id="organizacja-i-nawigacja">Organizacja i nawigacja<a class="headerlink" href="#organizacja-i-nawigacja" title="Permanent link">&para;</a></h3>
-<ul>
-<li><a href="tags/">Tagi</a> - Używanie tagów do filtrowania treści</li>
-<li><a href="table-of-contents/">Spis treści</a> - TOC z permalinkami</li>
-</ul>
-<h2 id="jak-korzystac-z-tej-dokumentacji">Jak korzystać z tej dokumentacji<a class="headerlink" href="#jak-korzystac-z-tej-dokumentacji" title="Permanent link">&para;</a></h2>
-<p>Każda strona zawiera:
-- <strong>Opis</strong> - wyjaśnienie funkcji i kiedy jej używać
-- <strong>Użycie</strong> - przykłady kodu markdown
-- <strong>Przykład</strong> - żywy przykład pokazujący efekt końcowy</p>
-<p>Wybierz funkcję z listy powyżej, aby zobaczyć szczegółowe instrukcje.</p>
+<h2 id="3-poprawki-po-review">3. Poprawki po review<a class="headerlink" href="#3-poprawki-po-review" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>git checkout feature/nazwa-zmiany
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>git pull
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>git add .
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>git commit -m &quot;poprawki po review&quot;
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>git push
+</span></code></pre></div>
+<h2 id="4-konflikty-rozwiazanie">4. Konflikty – rozwiązanie<a class="headerlink" href="#4-konflikty-rozwiazanie" title="Permanent link">&para;</a></h2>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>git checkout main
+</span><span id="__span-8-2"><a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>git pull
+</span><span id="__span-8-3"><a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>git checkout feature/nazwa-zmiany
+</span><span id="__span-8-4"><a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>git merge main
+</span></code></pre></div>
+<p>Rozwiąż ręcznie w plikach, usuń znaczniki konfliktu, potem:
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>git add .
+</span><span id="__span-9-2"><a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>git commit -m &quot;fix: konflikty&quot;
+</span><span id="__span-9-3"><a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>git push
+</span></code></pre></div></p>
+<h2 id="5-komendy-skrot">5. Komendy skrót<a class="headerlink" href="#5-komendy-skrot" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Cel</th>
+<th>Komenda</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>clone</td>
+<td>git clone <adres></td>
+</tr>
+<tr>
+<td>init</td>
+<td>git init</td>
+</tr>
+<tr>
+<td>pobranie zmian</td>
+<td>git pull</td>
+</tr>
+<tr>
+<td>commit</td>
+<td>git commit -m "opis"</td>
+</tr>
+<tr>
+<td>push</td>
+<td>git push</td>
+</tr>
+<tr>
+<td>nowa gałąź</td>
+<td>git checkout -b feature/...</td>
+</tr>
+<tr>
+<td>merge z main</td>
+<td>git merge main</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-przepyw-koncowy">6. Przepływ końcowy<a class="headerlink" href="#6-przepyw-koncowy" title="Permanent link">&para;</a></h2>
+<ol>
+<li>git pull</li>
+<li>git checkout -b feature/...</li>
+<li>mkdocs serve (opcjonalnie)</li>
+<li>git add .</li>
+<li>git commit -m "..."</li>
+<li>git push -u origin feature/...</li>
+<li>PR → review → merge</li>
+<li>deploy na GitHub Pages</li>
+</ol>
 
 
 
@@ -1419,7 +1734,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../Przyk%C5%82ady/Inna%20podstrona/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Inna podstrona">
+          <a href="../Getting%20started/" class="md-footer__link md-footer__link--prev" aria-label="Previous: MkDocs Documentation Site">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1429,20 +1744,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Inna podstrona
+                MkDocs Documentation Site
               </div>
             </div>
           </a>
         
         
           
-          <a href="abbreviations/" class="md-footer__link md-footer__link--next" aria-label="Next: Skróty">
+          <a href="../Przyk%C5%82ady/" class="md-footer__link md-footer__link--next" aria-label="Next: testowa strona dokumentacji">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Skróty
+                testowa strona dokumentacji
               </div>
             </div>
             <div class="md-footer__button md-icon">
