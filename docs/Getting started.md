@@ -240,3 +240,4 @@ Jeśli napotkasz problemy z virtual environment:
 ## Zatrzymywanie serwera
 
 Naciśnij `Ctrl+C` w terminalu, w którym działa `mkdocs serve`.
+
