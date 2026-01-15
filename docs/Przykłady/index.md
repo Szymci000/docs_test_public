@@ -1,5 +1,5 @@
 # testowa strona dokumentacji
-- standardowy markdown[^1] działa wporządku
+- standardowy markdown[^1] działa w porządku
 
 ikonki działają :material-check:
 
